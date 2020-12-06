@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,14 @@
 		1414F21F257BE3E700448EF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414F21E257BE3E700448EF5 /* ContentView.swift */; };
 		1414F221257BE3E900448EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1414F220257BE3E900448EF5 /* Assets.xcassets */; };
 		1414F224257BE3E900448EF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1414F223257BE3E900448EF5 /* Preview Assets.xcassets */; };
+		1414F252257BE6D500448EF5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1414F251257BE6D500448EF5 /* GoogleService-Info.plist */; };
+		1414F257257BE76000448EF5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414F256257BE76000448EF5 /* HomeView.swift */; };
+		1414F25A257BE76D00448EF5 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414F259257BE76D00448EF5 /* LogInView.swift */; };
+		1414F25E257BE81300448EF5 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414F25D257BE81300448EF5 /* AddView.swift */; };
+		1414F262257BE82700448EF5 /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414F261257BE82700448EF5 /* SignInWithApple.swift */; };
+		1414F267257BE86400448EF5 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414F266257BE86400448EF5 /* ShopItem.swift */; };
+		1414F26A257BE94A00448EF5 /* AppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414F269257BE94A00448EF5 /* AppleCoordinator.swift */; };
+		E0954DA61B64F5D759040AD2 /* Pods_ShopTogether2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAF3E56CA4C8E04083BF9AE /* Pods_ShopTogether2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,17 @@
 		1414F220257BE3E900448EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1414F223257BE3E900448EF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1414F225257BE3E900448EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1414F251257BE6D500448EF5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1414F256257BE76000448EF5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1414F259257BE76D00448EF5 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		1414F25D257BE81300448EF5 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		1414F261257BE82700448EF5 /* SignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
+		1414F266257BE86400448EF5 /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		1414F269257BE94A00448EF5 /* AppleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCoordinator.swift; sourceTree = "<group>"; };
+		1414F26E257BED7A00448EF5 /* ShopTogether2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShopTogether2.entitlements; sourceTree = "<group>"; };
+		5CAF3E56CA4C8E04083BF9AE /* Pods_ShopTogether2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopTogether2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BE9BF9C62121E1A0293239 /* Pods-ShopTogether2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopTogether2.release.xcconfig"; path = "Target Support Files/Pods-ShopTogether2/Pods-ShopTogether2.release.xcconfig"; sourceTree = "<group>"; };
+		BBE6ACB80636E6BA4A2783D4 /* Pods-ShopTogether2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopTogether2.debug.xcconfig"; path = "Target Support Files/Pods-ShopTogether2/Pods-ShopTogether2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0954DA61B64F5D759040AD2 /* Pods_ShopTogether2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +58,8 @@
 			children = (
 				1414F21B257BE3E700448EF5 /* ShopTogether2 */,
 				1414F21A257BE3E700448EF5 /* Products */,
+				433577B34159F49479B37DCD /* Pods */,
+				E3E713C5EC2387FB9CD3DA8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +74,15 @@
 		1414F21B257BE3E700448EF5 /* ShopTogether2 */ = {
 			isa = PBXGroup;
 			children = (
+				1414F26E257BED7A00448EF5 /* ShopTogether2.entitlements */,
+				1414F255257BE74D00448EF5 /* Buttons */,
+				1414F254257BE74300448EF5 /* Views */,
 				1414F21C257BE3E700448EF5 /* ShopTogether2App.swift */,
-				1414F21E257BE3E700448EF5 /* ContentView.swift */,
 				1414F220257BE3E900448EF5 /* Assets.xcassets */,
 				1414F225257BE3E900448EF5 /* Info.plist */,
+				1414F251257BE6D500448EF5 /* GoogleService-Info.plist */,
 				1414F222257BE3E900448EF5 /* Preview Content */,
+				1414F266257BE86400448EF5 /* ShopItem.swift */,
 			);
 			path = ShopTogether2;
 			sourceTree = "<group>";
@@ -69,6 +95,43 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1414F254257BE74300448EF5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1414F21E257BE3E700448EF5 /* ContentView.swift */,
+				1414F256257BE76000448EF5 /* HomeView.swift */,
+				1414F259257BE76D00448EF5 /* LogInView.swift */,
+				1414F25D257BE81300448EF5 /* AddView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1414F255257BE74D00448EF5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				1414F261257BE82700448EF5 /* SignInWithApple.swift */,
+				1414F269257BE94A00448EF5 /* AppleCoordinator.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		433577B34159F49479B37DCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBE6ACB80636E6BA4A2783D4 /* Pods-ShopTogether2.debug.xcconfig */,
+				68BE9BF9C62121E1A0293239 /* Pods-ShopTogether2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3E713C5EC2387FB9CD3DA8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CAF3E56CA4C8E04083BF9AE /* Pods_ShopTogether2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1414F228257BE3E900448EF5 /* Build configuration list for PBXNativeTarget "ShopTogether2" */;
 			buildPhases = (
+				AE916CB7EC290AB6AF654A46 /* [CP] Check Pods Manifest.lock */,
 				1414F215257BE3E700448EF5 /* Sources */,
 				1414F216257BE3E700448EF5 /* Frameworks */,
 				1414F217257BE3E700448EF5 /* Resources */,
+				904DE38697062BC8F6536D6D /* [CP] Embed Pods Frameworks */,
+				AE47638875E3FF51E669BCA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,18 +194,84 @@
 			files = (
 				1414F224257BE3E900448EF5 /* Preview Assets.xcassets in Resources */,
 				1414F221257BE3E900448EF5 /* Assets.xcassets in Resources */,
+				1414F252257BE6D500448EF5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		904DE38697062BC8F6536D6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopTogether2/Pods-ShopTogether2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopTogether2/Pods-ShopTogether2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopTogether2/Pods-ShopTogether2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE47638875E3FF51E669BCA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopTogether2/Pods-ShopTogether2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopTogether2/Pods-ShopTogether2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopTogether2/Pods-ShopTogether2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE916CB7EC290AB6AF654A46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShopTogether2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1414F215257BE3E700448EF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1414F257257BE76000448EF5 /* HomeView.swift in Sources */,
 				1414F21F257BE3E700448EF5 /* ContentView.swift in Sources */,
+				1414F267257BE86400448EF5 /* ShopItem.swift in Sources */,
+				1414F25E257BE81300448EF5 /* AddView.swift in Sources */,
+				1414F25A257BE76D00448EF5 /* LogInView.swift in Sources */,
+				1414F262257BE82700448EF5 /* SignInWithApple.swift in Sources */,
 				1414F21D257BE3E700448EF5 /* ShopTogether2App.swift in Sources */,
+				1414F26A257BE94A00448EF5 /* AppleCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +396,11 @@
 		};
 		1414F229257BE3E900448EF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE6ACB80636E6BA4A2783D4 /* Pods-ShopTogether2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShopTogether2/ShopTogether2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ShopTogether2/Preview Content\"";
 				DEVELOPMENT_TEAM = 89DQD8B7D7;
@@ -286,9 +420,11 @@
 		};
 		1414F22A257BE3E900448EF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BE9BF9C62121E1A0293239 /* Pods-ShopTogether2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShopTogether2/ShopTogether2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ShopTogether2/Preview Content\"";
 				DEVELOPMENT_TEAM = 89DQD8B7D7;
