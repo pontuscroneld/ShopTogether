@@ -18,6 +18,15 @@
 		1414F262257BE82700448EF5 /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414F261257BE82700448EF5 /* SignInWithApple.swift */; };
 		1414F267257BE86400448EF5 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414F266257BE86400448EF5 /* ShopItem.swift */; };
 		1414F26A257BE94A00448EF5 /* AppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414F269257BE94A00448EF5 /* AppleCoordinator.swift */; };
+		1468E77225823D7D0079FFD9 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468E77125823D7D0079FFD9 /* EmailView.swift */; };
+		1468E77625823DC20079FFD9 /* AddCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468E77425823DC20079FFD9 /* AddCircle.swift */; };
+		1468E77725823DC20079FFD9 /* AmountType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468E77525823DC20079FFD9 /* AmountType.swift */; };
+		1468E77B25823DD00079FFD9 /* Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468E77925823DD00079FFD9 /* Refresh.swift */; };
+		1468E77C25823DD00079FFD9 /* CreateLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468E77A25823DD00079FFD9 /* CreateLogIn.swift */; };
+		1468E78025823DDC0079FFD9 /* SignInWithEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468E77E25823DDB0079FFD9 /* SignInWithEmail.swift */; };
+		1468E78125823DDC0079FFD9 /* SignOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468E77F25823DDB0079FFD9 /* SignOut.swift */; };
+		1468E78425823DF40079FFD9 /* INEEDHELPWITH.md in Resources */ = {isa = PBXBuildFile; fileRef = 1468E78325823DF40079FFD9 /* INEEDHELPWITH.md */; };
+		1474009B257E462500AD7190 /* new.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474009A257E462500AD7190 /* new.swift */; };
 		E0954DA61B64F5D759040AD2 /* Pods_ShopTogether2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAF3E56CA4C8E04083BF9AE /* Pods_ShopTogether2.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +45,15 @@
 		1414F266257BE86400448EF5 /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
 		1414F269257BE94A00448EF5 /* AppleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCoordinator.swift; sourceTree = "<group>"; };
 		1414F26E257BED7A00448EF5 /* ShopTogether2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShopTogether2.entitlements; sourceTree = "<group>"; };
+		1468E77125823D7D0079FFD9 /* EmailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		1468E77425823DC20079FFD9 /* AddCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCircle.swift; sourceTree = "<group>"; };
+		1468E77525823DC20079FFD9 /* AmountType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmountType.swift; sourceTree = "<group>"; };
+		1468E77925823DD00079FFD9 /* Refresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Refresh.swift; sourceTree = "<group>"; };
+		1468E77A25823DD00079FFD9 /* CreateLogIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateLogIn.swift; sourceTree = "<group>"; };
+		1468E77E25823DDB0079FFD9 /* SignInWithEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithEmail.swift; sourceTree = "<group>"; };
+		1468E77F25823DDB0079FFD9 /* SignOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOut.swift; sourceTree = "<group>"; };
+		1468E78325823DF40079FFD9 /* INEEDHELPWITH.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = INEEDHELPWITH.md; sourceTree = "<group>"; };
+		1474009A257E462500AD7190 /* new.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new.swift; sourceTree = "<group>"; };
 		5CAF3E56CA4C8E04083BF9AE /* Pods_ShopTogether2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopTogether2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BE9BF9C62121E1A0293239 /* Pods-ShopTogether2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopTogether2.release.xcconfig"; path = "Target Support Files/Pods-ShopTogether2/Pods-ShopTogether2.release.xcconfig"; sourceTree = "<group>"; };
 		BBE6ACB80636E6BA4A2783D4 /* Pods-ShopTogether2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopTogether2.debug.xcconfig"; path = "Target Support Files/Pods-ShopTogether2/Pods-ShopTogether2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,8 +99,10 @@
 				1414F220257BE3E900448EF5 /* Assets.xcassets */,
 				1414F225257BE3E900448EF5 /* Info.plist */,
 				1414F251257BE6D500448EF5 /* GoogleService-Info.plist */,
+				1468E78325823DF40079FFD9 /* INEEDHELPWITH.md */,
 				1414F222257BE3E900448EF5 /* Preview Content */,
 				1414F266257BE86400448EF5 /* ShopItem.swift */,
+				1474009A257E462500AD7190 /* new.swift */,
 			);
 			path = ShopTogether2;
 			sourceTree = "<group>";
@@ -101,6 +121,7 @@
 				1414F21E257BE3E700448EF5 /* ContentView.swift */,
 				1414F256257BE76000448EF5 /* HomeView.swift */,
 				1414F259257BE76D00448EF5 /* LogInView.swift */,
+				1468E77125823D7D0079FFD9 /* EmailView.swift */,
 				1414F25D257BE81300448EF5 /* AddView.swift */,
 			);
 			path = Views;
@@ -109,7 +130,13 @@
 		1414F255257BE74D00448EF5 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				1468E77425823DC20079FFD9 /* AddCircle.swift */,
+				1468E77525823DC20079FFD9 /* AmountType.swift */,
+				1468E77A25823DD00079FFD9 /* CreateLogIn.swift */,
+				1468E77925823DD00079FFD9 /* Refresh.swift */,
 				1414F261257BE82700448EF5 /* SignInWithApple.swift */,
+				1468E77E25823DDB0079FFD9 /* SignInWithEmail.swift */,
+				1468E77F25823DDB0079FFD9 /* SignOut.swift */,
 				1414F269257BE94A00448EF5 /* AppleCoordinator.swift */,
 			);
 			path = Buttons;
@@ -193,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1414F224257BE3E900448EF5 /* Preview Assets.xcassets in Resources */,
+				1468E78425823DF40079FFD9 /* INEEDHELPWITH.md in Resources */,
 				1414F221257BE3E900448EF5 /* Assets.xcassets in Resources */,
 				1414F252257BE6D500448EF5 /* GoogleService-Info.plist in Resources */,
 			);
@@ -264,14 +292,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1474009B257E462500AD7190 /* new.swift in Sources */,
+				1468E78125823DDC0079FFD9 /* SignOut.swift in Sources */,
+				1468E77725823DC20079FFD9 /* AmountType.swift in Sources */,
 				1414F257257BE76000448EF5 /* HomeView.swift in Sources */,
 				1414F21F257BE3E700448EF5 /* ContentView.swift in Sources */,
+				1468E77625823DC20079FFD9 /* AddCircle.swift in Sources */,
+				1468E78025823DDC0079FFD9 /* SignInWithEmail.swift in Sources */,
+				1468E77B25823DD00079FFD9 /* Refresh.swift in Sources */,
 				1414F267257BE86400448EF5 /* ShopItem.swift in Sources */,
+				1468E77C25823DD00079FFD9 /* CreateLogIn.swift in Sources */,
 				1414F25E257BE81300448EF5 /* AddView.swift in Sources */,
 				1414F25A257BE76D00448EF5 /* LogInView.swift in Sources */,
 				1414F262257BE82700448EF5 /* SignInWithApple.swift in Sources */,
 				1414F21D257BE3E700448EF5 /* ShopTogether2App.swift in Sources */,
 				1414F26A257BE94A00448EF5 /* AppleCoordinator.swift in Sources */,
+				1468E77225823D7D0079FFD9 /* EmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

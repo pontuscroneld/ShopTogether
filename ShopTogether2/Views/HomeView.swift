@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Firebase
+
 
 struct CircleImage: View {
     
@@ -152,6 +152,10 @@ struct HomeView: View {
             } // Top ZStack
         //} // Nav
     } // Body
+    
+    
+    
+    
 } // Struct
 
 struct SwiftUIView_Previews: PreviewProvider {

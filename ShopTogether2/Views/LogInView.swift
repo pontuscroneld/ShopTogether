@@ -11,12 +11,34 @@ import Firebase
 
 struct LogInView: View {
     
+    @State var logInWithEmail = false
+    @State var email = ""
+    @State var password = ""
+   
+    
     @Environment(\.presentationMode) var presentationMode
     @State var coordinator: AppleCoordinator?
     
     var body: some View {
         VStack{
-            Text("Sign in to share your list with friends.")
+            
+            NavigationLink(
+                destination: EmailView(),
+                isActive: $logInWithEmail,
+                label: {
+                    Text("")
+                })
+            
+            Spacer()
+            
+            Image("basket.logo")
+                .resizable()
+                .frame(width: 300, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .padding(.bottom, 50)
+            
+           
+            
+            if(logInWithEmail == false){
             SignInWIthApple()
                 .frame(width: 300, height: 45)
                 .onTapGesture {
@@ -29,10 +51,47 @@ struct LogInView: View {
                     }
                    
                 } //End Tap Apple
-     
+            }
+           //SignInWithEmail()
+            
+            Button(action: {
+                logInWithEmail.toggle()
+                
+            }) {
+                SignInWithEmail()
+                //Text("Email")
+            }
+            
+            if(logInWithEmail == true){
+                
+                TextField("Email adress", text: $email)
+                    .padding()
+                SecureField("Password", text: $password)
+                    .padding()
+                
+                HStack{
+                    CreateLogIn(action: "Create User", buttoncolor: .orange, function: "create", newEmail: email, newPassword: password) 
+                    CreateLogIn(action: "Log in", buttoncolor: .green, function: "login", newEmail: email, newPassword: password)
+                }
+                
+            }
+
+            SignOut().padding(.top, 2)
+                .onTapGesture {
+                    presentationMode.wrappedValue.dismiss()
+                }
+        
+            
+            Text("Share basket with your household using the same login!")
+                .fontWeight(.medium)
+                .multilineTextAlignment(.center)
+                .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .padding()
+                .font(.caption)
+        
+            Spacer()
             
         } // End top stack
-        
         
     }// End body
     
