@@ -35,7 +35,7 @@ struct CreateLogIn: View {
         }
         ) {
             Text(action)
-                .font(.title3)
+                .font(.headline)
                 .fontWeight(.regular)
         }
         .frame(width: 150, height: 50)

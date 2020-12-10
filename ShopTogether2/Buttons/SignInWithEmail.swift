@@ -19,7 +19,7 @@ struct SignInWithEmail: View {
             Button(action: {
                 
                 
-                print("Button pressed")
+                print("Button really pressed")
                 
             }, label: {
                 

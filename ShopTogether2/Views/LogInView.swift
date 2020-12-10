@@ -52,10 +52,12 @@ struct LogInView: View {
                    
                 } //End Tap Apple
             }
-           //SignInWithEmail()
+            //SignInWithEmail()
             
             Button(action: {
                 logInWithEmail.toggle()
+                print(self.logInWithEmail)
+                
                 
             }) {
                 SignInWithEmail()
@@ -75,11 +77,12 @@ struct LogInView: View {
                 }
                 
             }
-
-            SignOut().padding(.top, 2)
-                .onTapGesture {
-                    presentationMode.wrappedValue.dismiss()
+            if(logInWithEmail == false){
+                SignOut().padding(.top, 2)
+                    .onTapGesture {
+                        presentationMode.wrappedValue.dismiss()
                 }
+            }
         
             
             Text("Share basket with your household using the same login!")
