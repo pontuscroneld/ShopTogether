@@ -10,6 +10,8 @@ import Firebase
 
 struct SignOut: View {
     
+    var doThis = {}
+    
     var body: some View {
         
         VStack {
@@ -23,8 +25,10 @@ struct SignOut: View {
             } catch let signOutError as NSError {
               print ("ERROR ERROR ERROR ERROR ERROR ERROR", signOutError)
             }
-              
+                doThis()
                 print("Succesfully signed out")
+                Auth.auth().signInAnonymously()
+                
                 
             }, label: {
                 

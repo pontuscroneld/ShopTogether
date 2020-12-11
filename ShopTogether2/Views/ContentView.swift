@@ -89,6 +89,9 @@ struct ContentView: View {
                 if(Auth.auth().currentUser != nil){
                    loadfromfirebase()
                 }
+                if(Auth.auth().currentUser == nil){
+                    Auth.auth().signInAnonymously()
+                }
             }
             .sheet(isPresented: $ShowSignIn, content: {
                LogInView()
@@ -217,6 +220,10 @@ struct ContentView: View {
             {
                 let childdata = child as! DataSnapshot
                 let childdict = childdata.value as! [String : Any]
+                
+                if childdict["name"] == nil {
+                    return
+                }
                 
                 let tempShop = ShopItem()
                 tempShop.firebaseid = childdata.key

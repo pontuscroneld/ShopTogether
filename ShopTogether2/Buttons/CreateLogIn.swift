@@ -10,6 +10,8 @@ import Firebase
 
 struct CreateLogIn: View {
     
+    var doThis = {}
+    
    
     var action: String
     var buttoncolor: Color
@@ -21,6 +23,8 @@ struct CreateLogIn: View {
     var body: some View {
         Button(action:{
             
+            
+            
             if function == "create"{
                 createNewEmail()
             }
@@ -31,6 +35,7 @@ struct CreateLogIn: View {
             else {
                 return
             }
+            
             
         }
         ) {
@@ -52,14 +57,16 @@ struct CreateLogIn: View {
             {
                 // LOGIN OK!
                 print("Sign up ok")
+                doThis()
                 
-              
             } else {
                 print("Sign up error")
-                
-            
+                doThis()
             }
         }
+        
+        UIApplication.shared.endEditing()
+        
     }
 
     func logInEmail(){
@@ -69,11 +76,16 @@ struct CreateLogIn: View {
             {
                 // LOGIN OK!
                 print("Login ok")
+            
+                doThis()
                 
             } else {
                 print("Login error")
+                doThis()
             }
         }
+        
+        UIApplication.shared.endEditing()
     }
 }
 

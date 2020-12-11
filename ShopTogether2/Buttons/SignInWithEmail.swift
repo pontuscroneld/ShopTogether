@@ -9,19 +9,15 @@ import SwiftUI
 
 struct SignInWithEmail: View {
     
-    @State var goEmail = false
+   
+    var doThis = {}
     
     var body: some View {
         
         VStack {
             
             
-            Button(action: {
-                
-                
-                print("Button really pressed")
-                
-            }, label: {
+            Button(action: doThis, label: {
                 
                 HStack{
                     Image(systemName: "envelope")
